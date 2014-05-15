@@ -2,7 +2,7 @@
 # https://github.com/srid/discourse-docker/blob/master/postgresql/Dockerfile
 # https://github.com/orchardup/docker-postgresql/blob/master/Dockerfile
 
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER Jack Chu "jack@jackchu.com"
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
